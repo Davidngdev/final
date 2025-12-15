@@ -43,7 +43,7 @@ const serviceMsg = document.getElementById("serviceMsg");
 
 if (serviceBtn && serviceMsg) {
   serviceBtn.addEventListener("click", () => {
-    serviceMsg.textContent = "✅ JavaScript is working — interaction confirmed.";
+    serviceMsg.textContent = "✅ JavaScript is working, interaction confirmed.";
   });
 }
 
@@ -77,3 +77,4 @@ if (contactForm && formMsg) {
     contactForm.reset();
   });
 }
+
